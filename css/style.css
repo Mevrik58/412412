@@ -1,0 +1,119 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    min-width: 900px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #283136;
+}
+
+.container {
+    width: 880px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-header {
+    background-color: #eeeeee;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.header-logo img {
+    float: left;
+    width: 139px;
+    height: 56px;
+    margin-right: 180px;
+}
+
+.main-navigation li {
+    float: left;
+    margin-right: 40px;
+    padding-top: 30px;
+    list-style: none;
+}
+
+.main-header a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+.main-navigation li:last-child {
+    margin-right: 66px;
+}
+
+.buy {
+    position: relative;
+}
+
+.buy a {
+    float: right;
+    padding-top: 30px;
+}
+
+.buy::before {
+    content: "";
+    position: absolute;
+    top: 32px;
+    right: 80px;
+    width: 15px;
+    height: 15px;
+    background-image: url("../img/icon-basket.png");
+    background-repeat: no-repeat;
+}
+
+.info {
+    padding-top: 25px;
+    background-color: #eeeeee;
+}
+
+.info-content {
+    padding-bottom: 80px;
+}
+
+.info-content {
+    float: left;
+    padding-top: 25px;
+}
+
+.radios {
+    float: left;
+    margin: 190px auto 0 auto;
+}
+
+.image img {
+    float: right;
+}
+
+.info-content b {
+    display: block;
+    width: 470px;
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+.info-content p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 30px;
+    width: 470px;
+}
+
+.btn {
+    font-size: 12px;
+    background-color: #fb565a;
+    color: white;
+    padding: 15px 80px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
