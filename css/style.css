@@ -53,6 +53,7 @@ body {
 
 .buy {
     position: relative;
+
 }
 
 .buy a {
@@ -64,7 +65,7 @@ body {
     content: "";
     position: absolute;
     top: 32px;
-    right: 80px;
+    right: 85px;
     width: 15px;
     height: 15px;
     background-image: url("../img/icon-basket.png");
@@ -80,6 +81,10 @@ body {
     padding-bottom: 80px;
 }
 
+.info .container {
+    position: relative;
+}
+
 .info-content {
     float: left;
     padding-top: 25px;
@@ -87,7 +92,9 @@ body {
 
 .radios {
     float: left;
-    margin: 190px auto 0 auto;
+    position: absolute;
+    top: 190px;
+    right: 426px;
 }
 
 .image img {
@@ -96,6 +103,7 @@ body {
 
 .info-content b {
     display: block;
+    color: black;
     width: 470px;
     font-size: 36px;
     line-height: 36px;
@@ -111,9 +119,166 @@ body {
 
 .btn {
     font-size: 12px;
+    line-height: 18px;
     background-color: #fb565a;
     color: white;
-    padding: 15px 80px;
     text-transform: uppercase;
     text-decoration: none;
+    border-radius: 3px;
+}
+
+.info-content .btn {
+    padding: 15px 70px;
+    width: 240px;
+}
+
+.products {
+    padding-top: 80px;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.product-item {
+    width: 240px;
+    float: left;
+    margin-right: 80px;
+    margin-bottom: 80px;
+}
+
+.product-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.product-item img {
+    width: 240px;
+    height: 124px;
+}
+
+.product-item h2 {
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.product-item p {
+    width: 240px;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.product-item .btn {
+    padding: 12px 40px;
+    width: 140px;
+    text-align: center;
+    border: 0;
+}
+
+.about {
+    border-bottom: 2px solid #eeeeee;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.about-info {
+    width: 600px;
+    float: left;
+    padding-top: 10px;
+}
+
+.about-logo {
+    float: right;
+}
+
+.about-projects {
+    float: left;
+}
+
+.about-work {
+    float: right;
+}
+
+.about-info b {
+    display: block;
+    width: 540px;
+    font-size: 36px;
+    line-height: 36px;
+    color: black;
+    padding-bottom: 7px;
+}
+
+.about-logo img {
+    width: 187px;
+    height: 75px;
+    margin-right: 20px;
+}
+
+.about-logo .uppercase {
+    font-size: 16px;
+    margin-top: 23px;
+    position: relative;
+    margin-left: 50px;
+}
+
+.about-logo .uppercase::before {
+    content: "";
+    width: 240px;
+    height: 2px;
+    background-image: url("../img/divide.png");
+    position: absolute;
+    top: 9px;
+    left: -80px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.about li:first-child {
+    padding-top: 10px;
+}
+
+.about li {
+    list-style: none;
+    position: relative;
+    padding-top: 25px;
+}
+
+.about li:first-child::before {
+    top: 20px;
+}
+
+.about li::before {
+    content: "";
+    width: 25px;
+    height: 2px;
+    background-image: url("../img/divide-li.png");
+    position: absolute;
+    top: 35px;
+    left: -38px;
+}
+
+.projects {
+    border-bottom: 2px solid #eeeeee;
+}
+
+.projects img {
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    vertical-align: middle;
+    margin-right: 120px;
+}
+
+.projects img:nth-child(3n+1) {
+    margin-left: 10px;
+}
+
+.projects img:nth-child(3n) {
+    margin-right: 10px;
 }
