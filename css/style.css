@@ -53,7 +53,6 @@ body {
 
 .buy {
     position: relative;
-
 }
 
 .buy a {
@@ -195,6 +194,7 @@ body {
 
 .about-work {
     float: right;
+    margin-right: 5px;
 }
 
 .about-info b {
@@ -214,9 +214,10 @@ body {
 
 .about-logo .uppercase {
     font-size: 16px;
-    margin-top: 23px;
+    margin-top: 25px;
     position: relative;
     margin-left: 50px;
+    color: black;
 }
 
 .about-logo .uppercase::before {
@@ -225,7 +226,7 @@ body {
     height: 2px;
     background-image: url("../img/divide.png");
     position: absolute;
-    top: 9px;
+    top: 10px;
     left: -80px;
 }
 
@@ -281,4 +282,83 @@ body {
 
 .projects img:nth-child(3n) {
     margin-right: 10px;
+}
+
+.map {
+    margin-top: 85px;
+    background-image: url("../img/map.png");
+    height: 416px;
+    width: 1199px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.map-left {
+    margin-top: 87px;
+    float: left;
+    background-color: white;
+    max-width: 210px;
+    max-height: 240px;
+    padding: 25px 20px;
+}
+
+.map-left h2 {
+    margin-top: 0;
+    font-size: 16px;
+    color: black;
+    line-height: 30px;
+}
+
+.map-left p {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+    line-height: 22px;
+    color: #666666;
+}
+
+.map-left .btn {
+    padding: 10px 55px;
+    text-align: center;
+    border: 0;
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 18px;
+
+}
+
+.map-right {
+    float: right;
+    margin-top: 113px;
+}
+
+.social-and-sale {
+    padding: 77px 0;
+    height: 63px;
+}
+
+.social {
+    float: left;
+}
+
+.social a {
+    margin-right: 20px;
+}
+
+.social a:last-child {
+    margin-right: 0;
+}
+
+.sale {
+    float: right;
+}
+
+.sale b {
+    font-size: 36px;
+    line-height: 36px;
+    color: black;
+}
+
+.sale p {
+    margin-top: 7px;
 }
